@@ -1,6 +1,7 @@
 <?php
+//  $Id: french_france.php 9 2009-08-28 15:33:49Z root $
 /**
-*   This is the French language page for the External Pages Plug-in.
+*   This is the English language page for the External Pages Plug-in.
 *   @author     Lee Garner <lee@leegarner.com>
 *   @author     Tom Willett <tomw@pigstye.net>
 *   @copyright  Copyright (c) 2009 Lee Garner <lee@leegarner.com>

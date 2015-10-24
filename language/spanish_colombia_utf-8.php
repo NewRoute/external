@@ -1,7 +1,6 @@
 <?php
-//  $Id: english.php 9 2009-08-28 15:33:49Z root $
 /**
-*   This is the English language page for the External Pages Plug-in.
+*   This is the Sapnish (CO) language page for the External Pages Plug-in.
 *   @author     Lee Garner <lee@leegarner.com>
 *   @author     Tom Willett <tomw@pigstye.net>
 *   @copyright  Copyright (c) 2009 Lee Garner <lee@leegarner.com>
@@ -17,27 +16,27 @@
 */
 
 $LANG_EX00 = array (
-    'header'            => 'External Pages',
-    'version'           => 'Version',
-    'results'           => ' Results',
+    'header'            => 'Páginas Externas',
+    'version'           => 'Versión',
+    'results'           => ' Resultados',
     'noextern'          => 'It appears that there are no external pagess on this site or no one has ever viewed them.',
     'topten'            => 'Top Ten ',
-    'save'              => 'Save',
-    'delete'            => 'Delete',
-    'cancel'            => 'Cancel',
+    'save'              => 'Guardar',
+    'delete'            => 'Borrar',
+    'cancel'            => 'Cancelar',
     'exidmsg'           => 'EXID',
-    'titlemsg'          => 'Title',
+    'titlemsg'          => 'Título',
     'urlmsg'            => 'URL',
     'hitsmsg'           => 'Hits',
     'info'              => 'Info',
-    'addnew'            => 'Add New',
+    'addnew'            => 'Crear',
     'adminhome'         => 'Admin Home',
-    'pageno'            => 'Page #',
-    'pageurl'           => 'Page URL',
-    'external'          => 'External',
-    'externpages'       => 'External Pages',
-    'plugin'            => 'Plugin',
-	'access_denied'     => 'Access Denied',
+    'pageno'            => 'Página #',
+    'pageurl'           => 'URL',
+    'external'          => 'Externa',
+    'externpages'       => 'Paginas Externas',
+    'plugin'            => 'Extensión',
+	'access_denied'     => 'Acceso Denegado',
 	'access_msg'        => 'You do not have permission to access this page',
 	'access_denied_msg' => 'Only Root Users have Access to this Page.  Your user name and IP have been recorded.',
 	'admin'		        => 'Plugin Admin',
@@ -47,38 +46,38 @@ $LANG_EX00 = array (
 	'install_success'	=> 'Installation Successful',
 	'install_failed'	=> 'Installation Failed -- See your error log to find out why.',
 	'uninstall_msg'		=> 'Plugin Successfully Uninstalled',
-	'install'           => 'Install',
-	'uninstall'         => 'UnInstall',
+	'install'           => 'Instalar',
+	'uninstall'         => 'Desinstalar',
     'warning'           => 'Warning! Plugin is still Enabled',
     'enabled'           => 'Disable plugin before uninstalling.',
-    'notavail'          => 'Not available'
+    'notavail'          => 'No disponible'
 );
 
 // Localization of the Admin Configuration UI
 $LANG_configsubgroups['external'] = array(
-    'sg_main' => 'Main Settings'
+    'sg_main' => 'General'
 );
 
 $LANG_fs['external'] = array(
-    'fs_main' => 'General Settings',
-    'fs_permissions' => 'Default Permissions',
+    'fs_main' => 'Principal',
+    'fs_permissions' => 'Permisos',
 );
 
 $LANG_configsections['external'] = array(
-    'label' => 'External Pages',
-    'title' => 'External Pages Configuration',
+    'label' => 'Páginas Externas',
+    'title' => 'Configuración P. Externas',
 );
 
 $LANG_confignames['external'] = array(
-    'show' => 'Show the external page list to users',
-    'defgrp' => 'Default Group',
-    'default_permissions' => 'Default Permission',
+    'show' => 'Mostrar la lista de páginas externas a los usuarios',
+    'defgrp' => 'Grupo Predeterminado',
+    'default_permissions' => 'Permisos',
 );
 
 // Note: entries 0, 1, and 12 are the same as in $LANG_configselects['Core']
 $LANG_configselects['external'] = array(
-    0 => array('True' => 1, 'False' => 0),
-    12 => array('No access' => 0, 'Read-Only' => 2, 'Read-Write' => 3)
+    0 => array('Sí' => 1, 'No' => 0),
+    12 => array('Sin acceso' => 0, 'Solo-Lectura' => 2, 'Lectura-Escritura' => 3)
 );
   
 ?>

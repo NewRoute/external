@@ -1,4 +1,5 @@
 <?php
+//  $Id: polish.php 9 2009-08-28 15:33:49Z root $
 /**
 *   This is the English language page for the External Pages Plug-in.
 *   @author     Lee Garner <lee@leegarner.com>
